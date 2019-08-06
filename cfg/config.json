@@ -1,0 +1,32 @@
+{
+    "webserver": {
+        "bin": "php",
+        "www3": "/media/data/work/productos/Gemcal/cfg/web/",
+        "www": "D:\\users\\tony\\proj\\zeo ",
+        "host": "0.0.0.0",
+        "port": 5003
+    },
+    "scope": {
+        "bin":{
+            "php": {
+                "windows": "D:\\users\\tony\\proj\\zeo\\bin\\re\\php\\windows\\php.exe",
+                "linux": "php"
+            },
+            "python": {
+                "windows":"D:\\develop\\tools\\re\\python\\windows\\python.exe",
+                "linux":"python"
+            },
+            "nodejs": {
+                "windows":"D:\\develop\\tools\\re\\nodejs\\windows\\nodejs.exe",
+                "linux":"nodejs"
+            },
+            "npm": {
+                "re":"nodejs",
+                "index": "npm"
+            },
+            "perl": {
+                "all":"perl"
+            }
+        }
+    }
+}

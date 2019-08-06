@@ -1,0 +1,13 @@
+{
+  "webserver": "Modulo para la administracion de un servidor web con PHP. (Zt)",
+  "start": "Iniciar el servidor web",
+    "stop": "Detener el servidor web",
+    "status": "Obtener informacion referente al servidor web",
+    "restart": "Reiniciar el servidor web",
+  "msg": {
+    "start": "Ejecutando el servidor'",
+    "status": "El servidor se esta ejecutando en la URL: 'http://{$host}:{$port}/bin/index.php', sobre el proceso: '{$pid}', publicando: '{$www}' ",
+    "stoped": "El servidor esta detenido",
+    "stop": "Deteniendo el servidor'"
+  }
+}

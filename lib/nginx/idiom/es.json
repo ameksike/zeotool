@@ -1,0 +1,17 @@
+{
+  "nginx": "Modulo para la administracion de servidores Nginx.",
+  "addVirtualHost": "Crear VirtualHost.",
+  "delVirtualHost": "Eliminar VirtualHost.",
+  "addInverseProxySp": "Crear Proxy Inverso simple.",
+  "addInverseProxyLb": "Crear Proxy Inverso incorporando balanceo de carga.",
+  "delInverseProxy": "Eliminar Proxy Inverso.",
+  "msg": {
+    "demvh": "Especifique la denominacion del VirtualHost ",
+    "delvh": "Especifique la denominacion del VirtualHost que desea eliminar",
+    "url": "Especifique la direccion URL que se desea proteger",
+    "listip": "Especifique la lista de servidores remotos en la forma host:port y separados por un espacio",
+    "port": "Especifique el puerto de escucha ",
+    "servername": "Especifique el nombre del servidor ",
+    "www": "Especifique la ruta de publicacion Web"
+  }
+}

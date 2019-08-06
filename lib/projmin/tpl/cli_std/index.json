@@ -1,0 +1,42 @@
+{
+	"name":"cli_std",
+	"description": "Construccion de modulos CLI estandar",
+	"prompt":{
+		"name": {
+			"label": "Especifique el nombre del modulo",
+			"value": true
+		},
+		"author": {
+			"label": "Especifique el nombre del autor del modulo",
+			"value": false
+		},
+		"version": {
+			"label": "Especifique la version del modulo",
+			"value": "0.1"
+		},
+		"description": {
+			"label": "Especifique la descripcion del modulo",
+			"value": false
+		}
+	},
+	"build":{
+		"dir": [ "src/", "idiom/", "cfg/", "mtd/" ],
+		"file": [{
+				"type": "main",
+				"src": "main.php",
+				"path": "src/"
+			},{
+				"src": "cfg.config.json",
+				"path": "cfg/config.json"
+			},{
+				"src": "idiom.es.json",
+				"path": "idiom/es.json"
+			},{
+				"src": "idiom.en.json",
+				"path": "idiom/en.json"
+			},{
+				"src": "mtd.metadata.json",
+				"path": "mtd/metadata.json"
+		}]
+	}
+}

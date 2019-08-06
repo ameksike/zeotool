@@ -1,0 +1,12 @@
+{
+	"name": "Zeotool (Zt)",
+	"package": "zeotool",
+	"description": "Platashorm for develop CLI and Web aplications.",
+	"author": "Antonio Membrides Espinosa",
+	"made": "10/05/2015",
+	"update": "15/03/2016",
+	"copyright": "Copyright (c) 2015-2017",
+	"license": "GPL",
+	"version": "0.1.3",
+	"require": []
+}

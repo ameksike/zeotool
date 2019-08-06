@@ -1,0 +1,11 @@
+{
+  "useMode": "Use mode",
+  "fileConfig": "File config",
+  "services": "Services",
+  "param": "Param",
+  "config": "Config LDAP.",
+  "ssl": "Config LDAP with SSL/TLS.",
+  "addOU": "Add O. Unity.",
+  "delOU": "Delete O. Unity.",
+  "rePassword": "Renew password from LDAP administrator."
+}

@@ -1,0 +1,47 @@
+{
+  "zt": {
+    "autoload": true,
+    "verbose": true,
+    "language": "es",
+    "error":{
+        "reporting":"E_ALL"
+    },
+    "dir": {
+      "log": "log/",
+      "lib": "lib/",
+      "vendor": "vendor/",
+      "config": "cfg/",
+      "idiom": "idiom/",
+      "install": "/usr/local/bin/"
+    },
+    "style": {
+      "<": " ... ",
+      "meta": {
+        "service": {
+          "max": 30,
+          "left": "    ",
+          "center": "... ",
+          "right": " \n"
+        },
+        "option": {
+          "max": 5,
+          "left": " [",
+          "center": "] => ",
+          "right": " \n"
+        }
+      }
+    }
+  },
+  "help": {
+    "@version    ": "version",
+	"@description": "description",
+	"@author(s)  ": "author",
+	"@made       ": "made",
+	"@update     ": "update",
+	"@copyright  ": "copyright",
+	"@license    ": "license",
+    "@useMode    ": "useModeValue",
+    "@service    ": "serviceValue",
+    "@param      ": "paramValue"
+  }
+}

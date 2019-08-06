@@ -1,0 +1,24 @@
+{
+	"projmin":"Module para la administracion de proyectos sobre ZeoTool. (Zt)",
+	"create":"Crear una nueva biblioteca o modulo.",
+	"import":"Adicionar o importar una biblioteca o modulo a  partir de un empaquetado zip.",
+	"export":"Exporta una biblioteca o modulo como un empaquetado zip.",
+	"delete":"Eliminar una biblioteca o modulo.",
+	"inspect":"Inspecciona una biblioteca o modulo.",
+	"modules":"Muestra un listado de las bibliotecas o modulos disponibles en el directorio 'lib/' del proyecto.",
+	"templates":"Muestra un listado de plantillas disponibles.",
+	"msg":{
+		"listLib": "Las bibliotecas o modulos disponibles son:",
+		"listTpl": "Las plantillas disponibles son:",
+		"packLib": "Empaquetando el modulo '$name' en '$file'.",
+		"ztpackage": "Especifique el en nombre del paquete a almacenar",
+		"import": "Especifique el paquete a importar",
+        "ztmname": "Especifique el nombre del modulo",
+        "ztmtpl": "Especifique el nombre de la plantilla a utilizar",
+		"error":{
+			"rmdir": "El modulo '$name' no existe.",
+			"addLib": "El empaquetado del modulo '$file' no existe, asegurese que sea valido.",
+			"copy": "El archivo '$name' no se pudo copiar."
+		}
+	}
+}

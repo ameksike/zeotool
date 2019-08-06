@@ -1,0 +1,8 @@
+{
+  "mydb": {
+    "host": "10.0.0.12",
+    "name": "cetidb",
+    "user": "root",
+    "pass": "toor"
+  }
+}

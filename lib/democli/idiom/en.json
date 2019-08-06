@@ -1,0 +1,23 @@
+{
+  "democli": "Modulo demostrativo, expone ejemplos de la utilizacion de la API propuesta por ZeoTool. (Zt)",
+  "getParams": "Ejemplo de captura de parametros espacificados a una funcion.",
+  "returnValue": "Ejemplo de retorno de valores, los cuales pueden ser compuestos o nativos.",
+  "interactive": "Ejemplo de como interactuar con la consola interactiva.",
+  "prompt": "Ejemplo de interaciones predisenadas como la obtencion de contrasenas entre otros.",
+  "metaInfo": "Ejemplo de obtencion de meta informacion de modulos y clases.",
+  "msgIdiom": "Ejemplo de mensaje simple desde un archivo idioma.",
+  "msgConfig": "Ejemplo de acceso a los elementos descritos en la configuracion local al modulo.",
+  "pathinfo": "Ejemplo de acceso a los distintos directorios del proyecto.",
+  "noVerboseInfo": "Ejemplo de escapar la salida de caracteres, util para retornar JSON.",
+  "debugSimple": "Ejemplo de depuracion simple, permitiendo interrumpir la ejecucion de php.",
+  "debugTrace": "Ejemplo de depuracion incluyendo el seguimiento de ejecucion del script.",
+  "debugTraceArgs": "Ejemplo de depuracion con seguimiento, incluyendo los parametros.",
+  "debugExtend": "Ejemplo de depuracion obteniendo informacion extendida de las variables.",
+  "debugNoBreak": "Ejemplo de depuracion sin detener la ejecucion del php.",
+  "useTPL": "Ejemplo de utilizacion de plantillas simples.",
+  "confirm": "Ejemplo de pregunta de confirmacion predefinida.",
+  "msg": {
+    "simple": "Este es un mensaje en espanol.",
+    "dbname": "El nombre de la base de datos es: "
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "ldap": "Modulo para la administracion de servidores LDAP(Lightweight Directory Access Protocol).",
+  "useModeValue": " {$zt->cfg['zt']['request']['bin']} ladp:[service] [param]",
+  "config": "Configurar LDAP.",
+  "sslSupport": "Configurar LDAP brindando soporte de SSL/TLS.",
+  "addOU": "Adicionar unidad organizativa.",
+  "delOU": "Eliminar unidad organizativa.",
+  "rePasswd": "Renovar contraseña del administrador LDAP.",
+  "newPasswd": "Generar contraseña del administrador LDAP.",
+  "deleteDB": "Eliminar las bases de datos del servidor LDAP.",
+  "server": "Administrar los servicios del servidor LDAP. [param]=>[start|stop|restart|status]",
+  "msg": {
+    "dbtype": "Especifique el tipo de base de datos a utilizar ",
+    "init": "Iniciando la configuracion del servidor LDAP.",
+    "getBaseURL": "Especifique la URL base del servidor",
+    "getRootdn": "Especifique el super usuario del servidor LDAP"
+  }
+}

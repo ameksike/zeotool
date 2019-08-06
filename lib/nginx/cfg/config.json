@@ -1,0 +1,12 @@
+{
+  "nginx": {
+    "cfg": "/etc/nginx/",
+    "www": "/var/www/",
+    "port": "8081",
+    "servername": "localhost",
+    "demvh": "localvh",
+    "demip": "localip",
+    "url": "https://127.0.0.1:443",
+    "service": "service nginx"
+  }
+}

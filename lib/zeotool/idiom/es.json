@@ -1,0 +1,74 @@
+{
+  "title": "ZeoTool (Zt) version $version.",
+  "useModeValue": "{$zt->cfg['zt']['request']['bin']} [service] [param]",
+  "serviceValue": "{$mod->getServices()}",
+  "version": "{$mod->version}",
+  "description": "{$mod->description}",
+  "zeotool": "ZeoTool (Zt)",
+  "author": "{$mod->author}",
+  "made": "{$mod->made}",
+  "update": "{$mod->update}",
+  "copyright": "{$mod->copyright}",
+  "license": "{$mod->license}",
+  "paramValue": "Parametro o listado de parametros, toma valor vacio y es opcional.",
+  "useMode": "Modo de uso",
+  
+  "reconfigure": "(API) Permite reconfigurar los datos de la clase Zt, es de uso estatico.",
+  "lib": "(API) Retorna el objeto o interfaz de un modulo determinado, es de uso estatico. ",
+  "load": "(API) Permite cargar en memoria una biblioteca o modulo, es de uso estatico. ",
+  "excecute": "(API) Permite ejecutar un servicio sobre la plataforma ZeoTool, de uso estatico.",
+  "log": "(API) Permite almacenar un log o suseso del sistema.",
+  "request": "(API) Captura los datos de la peticion al iniciarse la aplicacion.",
+  "idiom": "(API) Brinda acceso a la estructura de datos que almacena el idioma para determinado modulo.",
+  "path": "(API) Brinda acceso a la ruta o direccion de una biblioteca, de uso estatico.",
+  "compile": "(API) Compila o evalua una cadena a partir de un conjunto de parametros, es de uso estatico.",
+  "debug": "(API) Ofrece opciones de depuracion del codigo, de uso estatico.",
+  "isCli": "(API) Retorna verdadero en caso de ser una aplicacion en modo CLI, de uso estatico.",
+  "isVerbose": "(API) Determina si se esta utilizando el modo verbose o no, de uso estatico.",
+  "setVerbose": "(API) Establece un valor buleano para el modo verbose, de uso estatico.",
+  "data": "(API) Optiene la estructura de datos contenida en un archivo en formato JSON, de uso estatico.",
+  "tpl": "(API) Permite compilar una plantilla contenida en un fichero de extension tpl, de uso estatico.",
+  "this": "(API) Brinda acceso a un objeto global de la clase Zt, es de uso estatico. ",
+  "help": "Ayuda del sistema o modulo.",
+  "install": "Mecanismo de instalacion de la plataforma ZeoTool.",
+  "uninstall": "Mecanismo de desinstalacion de la plataforma ZeoTool.",
+  
+  "fileConfig": "Fichero de configuracion.",
+  "success": "La operacion se efectuo de forma satisfactoria.",
+  "failure": "La operacion termino de forma inesperada, contacte con el administrador para optener mas informacion.",
+  "prompt": {
+    "passw": {
+      "get": "Introduzca la contrasena",
+      "new": "Introduzca la nueva contrasena",
+      "re": "Vuelva a escribir la nueva contrasena",
+      "nomatch": "Las contrasenas especificadas no coiciden. Por favor vuelva a intentarlo."
+    },
+    "get": {
+      "invalid": "El valor especificado no entra dentro del rango permitido: [",
+      "requireField": "El campo es obligatorio, por favor especifique el dato requerido."
+    },
+    "confirm": {
+      "yes": "Si",
+      "no": "No"
+    }
+  },
+  "zt": {
+    "error": {
+      "noservice": "Error: El servicio '{$action}' no existe en el dominio '{$class}' ",
+      "nodomine": "Error: El dominio '{$class}' no existe",
+      "requireField": "El campo es obligatorio, por favor especifique el dato requerido.",
+      "write": "No se puede escribir en: '{$file}'",
+      "json": {
+        "depth": "Excedido tamano maximo de la pila",
+        "utf8": "Caracteres UTF-8 malformados, posiblemente estan mal codificados",
+        "ctrlchar": "Encontrado caracter de control no esperado",
+        "mismatch": "Desbordamiento de buffer o los modos no coinciden",
+        "syntax": "Error de sintaxis, JSON mal formado",
+        "unknown": "Error desconocido al prosesar el JSON"
+      }
+    },
+    "msg": {
+      "exec": "Ejecutando el servicio '{$action}' en el dominio '{$class}'"
+    }
+  }
+}

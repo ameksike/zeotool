@@ -1,0 +1,68 @@
+{
+	"name":"web_std",
+	"description": "Construccion de modulos orientados a la web estandar",
+	"prompt":{
+		"name": {
+			"label": "Especifique el nombre del modulo",
+			"value": true
+		},
+		"author": {
+			"label": "Especifique el nombre del autor del modulo",
+			"value": false
+		},
+		"version": {
+			"label": "Especifique la version del modulo",
+			"value": "0.1"
+		},
+		"description": {
+			"label": "Especifique la descripcion del modulo",
+			"value": false
+		}
+	},
+	"build":{
+		"dir": [ 
+			"src/client/js/", 
+			"src/client/css/",
+			"src/client/html/", 
+			"src/client/img/", 
+			"src/client/tpl/", 
+			"src/server/", 
+			"idiom/", 
+			"cfg/" 
+		],
+		"file": [{
+				"type": "main",
+				"src": "main.php",
+				"path": "src/server/"
+			},{
+				"type": "copy",
+				"src": "img/calc.png",
+				"path": "src/client/img/calc.png"
+			},{
+				"type": "copy",
+				"src": "css/style.css",
+				"path": "src/client/css/style.css"
+			},{
+				"type": "copy",
+				"src": "js/script.js",
+				"path": "src/client/js/script.js"
+			},{
+				"src": "index.html",
+				"path": "src/client/html/index.html"
+			},{
+				"src": "home.tpl",
+				"path": "src/client/tpl/home.tpl"
+			},{
+				"src": "cfg.config.json",
+				"path": "cfg/config.json"
+			},{
+				"src": "idiom.es.json",
+				"path": "idiom/es.json"
+			},{
+				"src": "idiom.en.json",
+				"path": "idiom/en.json"
+		}]
+	}
+}
+
+

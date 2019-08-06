@@ -1,0 +1,20 @@
+{
+	"econ": {
+		"db":{
+			"name": "econ",
+			"path": "data/",
+			"ext":".db",
+			"driver": "sqlite"
+		},
+		"dbms":{
+			"log": "../log/",
+			"driver": "sqlsrv",
+			"name": "hosp2",
+			"auth": "sqlserver",
+			"user": "sa",
+			"pass": "Versat*1",
+			"host":"192.168.11.234"
+		}
+	}
+}
+ 
